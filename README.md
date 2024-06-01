@@ -10,3 +10,10 @@ System.Management.Automation.Security.SystemEnforcementMode
 PS> Get-SystemLockdownPolicy
 None
 ```
+
+This is equivalent to
+
+```
+PS> [System.Management.Automation.Security.SystemPolicy]::GetSystemLockdownPolicy()
+None
+```
